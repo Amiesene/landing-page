@@ -144,7 +144,8 @@ color: white;
     gap: 130px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: -40px;
-    margin-left: 290px;
+    margin-left: 110px;
+    /* margin-right: 10px; */
     line-height: 15px;
     font-size: 15px;
 }
@@ -461,15 +462,16 @@ div.somme3{
 .somme4{
     padding: 30px;
     position: relative;
-    left: 260px;
+    left: 95px;
 }
 .complet{
     display: flex;
+    margin-right: 30px;
 }
 .somme3{
     /* margin-left: -90px; */
     position: relative;
-    left: 205px;
+    left: 33px;
 }
 /* .somme1{
     margin-right: 20px;
@@ -693,7 +695,9 @@ div.somme3{
     .texte{
         flex-direction: column;
         align-items: center; 
-        margin-left: 10px; 
+        margin-top: -40px;
+        /* margin-right: 350px; */
+        gap: 200px;
     }
     .bakeli2{
         flex-direction: column;
@@ -876,3 +880,4 @@ div.somme3{
         font-size: 12px;
     }
 }
+/* Modification des espacements */
